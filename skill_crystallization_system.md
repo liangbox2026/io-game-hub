@@ -253,10 +253,16 @@ _将学到的知识转化为可执行的技能_
 ### 2026-02-27: 技能沉淀体系创立
 
 **今日沉淀**:
-1. ✅ 智能抓取决策 (L2→L3)
-2. ✅ 会员网站爬取 (L1→L2)
-3. ✅ 系统健康监控 (L2)
-4. ✅ 知识整理输出 (L2)
+1. ✅ 智能抓取决策 (L2→L3) - `smart_fetch_decision.sh`
+2. ✅ 会员网站爬取 (L1→L2) - `shengcai_scraper.sh` + `manual_browser_assist.sh`
+3. ✅ 系统健康监控 (L2) - `system_health_check.sh` + `gateway_self_heal.sh`
+4. ✅ 知识整理输出 (L2) - `suayuan_openclaw_guide_summary.md`
+5. ✅ 技能沉淀机制 (L1) - `skill_crystallization.sh`
+
+**技能统计**:
+- 技能脚本：13 个
+- 使用指南：4 个
+- 技能文档：创建中
 
 **核心洞察**:
 > 知识的价值不在于知道，而在于能用。
