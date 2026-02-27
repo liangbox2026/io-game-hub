@@ -1,0 +1,41 @@
+# OpenClaw Workspace .gitignore
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Node modules (if any)
+node_modules/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets (should never be committed)
+*.key
+*.pem
+*.env
+secrets/
+
+# Build outputs
+dist/
+build/
+
+# Game hub specific
+io-game-hub/node_modules/
+io-game-hub/.next/
+io-game-hub/dist/
+
+# Memory daily logs (keep recent only)
+memory/daily_work_log_*.md

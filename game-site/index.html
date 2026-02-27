@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 游戏中心</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- 顶部导航 -->
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">🎮 游戏中心</h1>
+            <nav class="nav">
+                <a href="#" class="nav-link active">首页</a>
+                <a href="#" class="nav-link">热门游戏</a>
+                <a href="#" class="nav-link">分类</a>
+                <a href="#" class="nav-link">关于我们</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 搜索栏 -->
+    <section class="search-section">
+        <div class="container">
+            <input type="text" class="search-input" placeholder="搜索游戏...">
+            <button class="search-btn">搜索</button>
+        </div>
+    </section>
+
+    <!-- 热门游戏 -->
+    <main class="main">
+        <div class="container">
+            <h2 class="section-title">🔥 热门游戏</h2>
+            <div class="game-grid">
+                <!-- 游戏卡片 1 -->
+                <div class="game-card">
+                    <div class="game-thumb">
+                        <span class="game-emoji">🚀</span>
+                    </div>
+                    <h3 class="game-title">太空冒险</h3>
+                    <p class="game-desc">探索宇宙，征服星系</p>
+                    <button class="play-btn" onclick="playGame('太空冒险')">开始游戏</button>
+                </div>
+
+                <!-- 游戏卡片 2 -->
+                <div class="game-card">
+                    <div class="game-thumb">
+                        <span class="game-emoji">🏎️</span>
+                    </div>
+                    <h3 class="game-title">极速赛车</h3>
+                    <p class="game-desc">感受速度与激情</p>
+                    <button class="play-btn" onclick="playGame('极速赛车')">开始游戏</button>
+                </div>
+
+                <!-- 游戏卡片 3 -->
+                <div class="game-card">
+                    <div class="game-thumb">
+                        <span class="game-emoji">🧩</span>
+                    </div>
+                    <h3 class="game-title">益智拼图</h3>
+                    <p class="game-desc">挑战你的脑力</p>
+                    <button class="play-btn" onclick="playGame('益智拼图')">开始游戏</button>
+                </div>
+
+                <!-- 游戏卡片 4 -->
+                <div class="game-card">
+                    <div class="game-thumb">
+                        <span class="game-emoji">⚔️</span>
+                    </div>
+                    <h3 class="game-title">勇者斗恶龙</h3>
+                    <p class="game-desc">成为传奇英雄</p>
+                    <button class="play-btn" onclick="playGame('勇者斗恶龙')">开始游戏</button>
+                </div>
+
+                <!-- 游戏卡片 5 -->
+                <div class="game-card">
+                    <div class="game-thumb">
+                        <span class="game-emoji">🏀</span>
+                    </div>
+                    <h3 class="game-title">街头篮球</h3>
+                    <p class="game-desc">成为灌篮高手</p>
+                    <button class="play-btn" onclick="playGame('街头篮球')">开始游戏</button>
+                </div>
+
+                <!-- 游戏卡片 6 -->
+                <div class="game-card">
+                    <div class="game-thumb">
+                        <span class="game-emoji">🎯</span>
+                    </div>
+                    <h3 class="game-title">神箭手</h3>
+                    <p class="game-desc">百步穿杨的射击</p>
+                    <button class="play-btn" onclick="playGame('神箭手')">开始游戏</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 游戏分类 -->
+        <section class="categories">
+            <div class="container">
+                <h2 class="section-title">📂 游戏分类</h2>
+                <div class="category-grid">
+                    <a href="#" class="category-card">
+                        <span class="category-icon">🎮</span>
+                        <span class="category-name">动作游戏</span>
+                    </a>
+                    <a href="#" class="category-card">
+                        <span class="category-icon">🧩</span>
+                        <span class="category-name">益智游戏</span>
+                    </a>
+                    <a href="#" class="category-card">
+                        <span class="category-icon">🏎️</span>
+                        <span class="category-name">赛车游戏</span>
+                    </a>
+                    <a href="#" class="category-card">
+                        <span class="category-icon">⚽</span>
+                        <span class="category-name">体育游戏</span>
+                    </a>
+                    <a href="#" class="category-card">
+                        <span class="category-icon">🎲</span>
+                        <span class="category-name">休闲游戏</span>
+                    </a>
+                    <a href="#" class="category-card">
+                        <span class="category-icon">🎯</span>
+                        <span class="category-name">射击游戏</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 HTML5 游戏中心 - 免费畅玩所有游戏</p>
+            <div class="footer-links">
+                <a href="#">关于我们</a>
+                <a href="#">联系方式</a>
+                <a href="#">隐私政策</a>
+                <a href="#">广告合作</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

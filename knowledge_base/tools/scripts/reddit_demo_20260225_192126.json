@@ -1,0 +1,93 @@
+{
+  "total_posts": 6,
+  "matched_posts": 6,
+  "sentiment_distribution": {
+    "positive": 4,
+    "negative": 1,
+    "neutral": 1
+  },
+  "keyword_distribution": {
+    "AI": 3,
+    "automation": 3,
+    "飞书": 2,
+    "base": 2,
+    "RPA": 1,
+    "多维表格": 1,
+    "Lark": 1
+  },
+  "posts": [
+    {
+      "title": "Amazing AI automation tool using 飞书 base!",
+      "sentiment": "positive",
+      "matched_keywords": [
+        "AI",
+        "automation",
+        "飞书",
+        "base"
+      ],
+      "subreddit": "r/automation",
+      "points": 256,
+      "comments": 45,
+      "created": "2026-02-25T17:21:26.024892"
+    },
+    {
+      "title": "Disappointed with the new RPA software - too many issues",
+      "sentiment": "negative",
+      "matched_keywords": [
+        "RPA"
+      ],
+      "subreddit": "r/artificial",
+      "points": 189,
+      "comments": 67,
+      "created": "2026-02-25T14:21:26.024902"
+    },
+    {
+      "title": "How to use AI for automation? Looking for recommendations",
+      "sentiment": "positive",
+      "matched_keywords": [
+        "AI",
+        "automation"
+      ],
+      "subreddit": "r/MachineLearning",
+      "points": 134,
+      "comments": 89,
+      "created": "2026-02-25T11:21:26.024905"
+    },
+    {
+      "title": "飞书多维表格 is a game changer for our team productivity",
+      "sentiment": "positive",
+      "matched_keywords": [
+        "飞书",
+        "多维表格"
+      ],
+      "subreddit": "r/technology",
+      "points": 421,
+      "comments": 102,
+      "created": "2026-02-25T07:21:26.024907"
+    },
+    {
+      "title": "Best Lark base alternatives in 2026?",
+      "sentiment": "positive",
+      "matched_keywords": [
+        "Lark",
+        "base"
+      ],
+      "subreddit": "r/automation",
+      "points": 98,
+      "comments": 34,
+      "created": "2026-02-25T18:21:26.024911"
+    },
+    {
+      "title": "Automation trends to watch - AI is everywhere",
+      "sentiment": "neutral",
+      "matched_keywords": [
+        "AI",
+        "automation"
+      ],
+      "subreddit": "r/artificial",
+      "points": 567,
+      "comments": 123,
+      "created": "2026-02-24T19:21:26.024913"
+    }
+  ]
+}

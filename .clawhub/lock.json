@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "skills": {
+    "agent-browser": {
+      "version": "0.2.0",
+      "installedAt": 1770803375381
+    },
+    "moltguard": {
+      "version": "6.6.5",
+      "installedAt": 1771870447979
+    }
+  }
+}
