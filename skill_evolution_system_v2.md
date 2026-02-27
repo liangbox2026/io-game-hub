@@ -454,7 +454,7 @@ memory (L2) ──→ evolution_tracker (L2) ──→ knowledge_base (L1)
 
 ### 今日 (2026-02-27)
 
-- [ ] 完成智能抓取决策树设计
+- [x] ✅ 完成智能抓取决策树设计
 - [ ] 激活 MoltGuard 云检测
 - [ ] 创建安全检查清单
 
